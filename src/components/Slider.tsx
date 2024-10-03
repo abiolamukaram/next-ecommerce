@@ -10,7 +10,8 @@ const slides = [
       id: 1,
       title: "Summer Sale Collections",
       description: "Sale! Up to 50% off!",
-      img: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800",
+      // img: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800",
+      img:"https://images.pexels.com/photos/5637816/pexels-photo-5637816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       url: "/",
       bg: "bg-gradient-to-r from-yellow-50 to-pink-50",
     },
@@ -18,7 +19,8 @@ const slides = [
       id: 2,
       title: "Winter Sale Collections",
       description: "Sale! Up to 50% off!",
-      img: "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800",
+      // img: "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800",
+      img: "https://media.istockphoto.com/id/134017246/photo/emotional-friends.jpg?s=1024x1024&w=is&k=20&c=WATiTtrgeIym3N_pRL9gd1xrpO4lKi9XevNjjbCknOA=",
       url: "/",
       bg: "bg-gradient-to-r from-pink-50 to-blue-50",
     },
@@ -26,7 +28,8 @@ const slides = [
       id: 3,
       title: "Spring Sale Collections",
       description: "Sale! Up to 50% off!",
-      img: "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=800",
+      // img: "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=800",
+      img: "https://media.istockphoto.com/id/1402788207/photo/smiling-teacher-and-little-child-talking-and-playing-at-preschool.jpg?s=1024x1024&w=is&k=20&c=teNDbFITo351uy0WshUIjIpMsgnhM2sGVgFfGIly59w=",
       url: "/",
       bg: "bg-gradient-to-r from-blue-50 to-yellow-50",
     },
@@ -80,7 +83,6 @@ const Slider = () => {
       </div>
   ))}
   </div>
-  
   </div>
 );
 };
